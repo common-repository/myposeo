@@ -1,0 +1,241 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MyPoseo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 07:12+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: myposeo.php:46
+msgid "Settings"
+msgstr ""
+
+#: myposeo.php:47 pages/admin/dashboard.php:3
+msgid "SEO Dashboard"
+msgstr ""
+
+#: pages/admin/dashboard.php:39
+msgid "Desktop"
+msgstr ""
+
+#: pages/admin/dashboard.php:41
+msgid "Mobile"
+msgstr ""
+
+#: pages/admin/dashboard.php:76
+msgid "Please fill a valid API key to access to your datas"
+msgstr ""
+
+#: pages/admin/dashboard.php:76 pages/admin/dashboard.php:81
+msgid "MyPoseo Settings"
+msgstr ""
+
+#: pages/admin/dashboard.php:81
+msgid "Please select a campaign to access to your datas"
+msgstr ""
+
+#: pages/admin/dashboard.php:98
+msgid "Connection failed, please check your API code"
+msgstr ""
+
+#: pages/admin/dashboard.php:98
+msgid "Myposeo Settings"
+msgstr ""
+
+#: pages/admin/dashboard.php:135 pages/admin/connection.php:110
+msgid "Campaign"
+msgstr ""
+
+#: pages/admin/dashboard.php:138
+msgid "Created on"
+msgstr ""
+
+#: pages/admin/dashboard.php:139
+msgid "Updated on"
+msgstr ""
+
+#: pages/admin/dashboard.php:140
+msgid "Websites"
+msgstr ""
+
+#: pages/admin/dashboard.php:163
+msgid "Keywords for website"
+msgstr ""
+
+#: pages/admin/dashboard.php:169
+msgid "Start date"
+msgstr ""
+
+#: pages/admin/dashboard.php:172
+msgid "End date"
+msgstr ""
+
+#: pages/admin/dashboard.php:176
+msgid "Choose an engine"
+msgstr ""
+
+#: pages/admin/dashboard.php:185
+msgid "Choose a device"
+msgstr ""
+
+#: pages/admin/dashboard.php:190
+msgid "Choose a location"
+msgstr ""
+
+#: pages/admin/dashboard.php:212
+msgid "Keyword"
+msgstr ""
+
+#: pages/admin/dashboard.php:213
+msgid "URL"
+msgstr ""
+
+#: pages/admin/dashboard.php:214
+msgid "Position start date"
+msgstr ""
+
+#: pages/admin/dashboard.php:215
+msgid "Country"
+msgstr ""
+
+#: pages/admin/dashboard.php:216
+msgid "Position end date"
+msgstr ""
+
+#: pages/admin/dashboard.php:217
+msgid "Device"
+msgstr ""
+
+#: pages/admin/dashboard.php:218
+msgid "Volume"
+msgstr ""
+
+#: pages/admin/dashboard.php:219
+msgid "Traffic"
+msgstr ""
+
+#: pages/admin/dashboard.php:220
+msgid "Search engine"
+msgstr ""
+
+#: pages/admin/connection.php:4
+msgid "plugin"
+msgstr ""
+
+#: pages/admin/connection.php:10
+msgid "API key deleted"
+msgstr ""
+
+#: pages/admin/connection.php:18
+msgid "API key registered, thank you !"
+msgstr ""
+
+#: pages/admin/connection.php:53
+msgid "Your API key seems to be wrong, please check it"
+msgstr ""
+
+#: pages/admin/connection.php:62
+msgid ""
+"This plugin made by Myposeo let you follow your positioning evolution of "
+"your posts through search engines. This plugin needs to subscribe to a "
+"Premium licence, and an active project on your SEO dashboard with keywords "
+"mentioned"
+msgstr ""
+
+#: pages/admin/connection.php:66
+msgid "How to setup your plugin ?"
+msgstr ""
+
+#: pages/admin/connection.php:68
+msgid "Copy your API key available on the API page from your"
+msgstr ""
+
+#: pages/admin/connection.php:68
+msgid "Myposeo account"
+msgstr ""
+
+#: pages/admin/connection.php:69
+msgid "Paste your key in the field below"
+msgstr ""
+
+#: pages/admin/connection.php:70
+msgid ""
+"Select a campaign which will be used as default campaign on your SEO "
+"monitoring page"
+msgstr ""
+
+#: pages/admin/connection.php:77
+msgid "Needs help ?"
+msgstr ""
+
+#: pages/admin/connection.php:78
+msgid ""
+"We provide resources to help you step by step through this plugin "
+"configuration"
+msgstr ""
+
+#: pages/admin/connection.php:80
+msgid "Knowledge database"
+msgstr ""
+
+#: pages/admin/connection.php:82
+msgid ""
+"Any issue accessing datas ? An advanced issue and no answer in our knowledge "
+"database ? Please open a"
+msgstr ""
+
+#: pages/admin/connection.php:82
+msgid "ticket on Myposeo support page"
+msgstr ""
+
+#: pages/admin/connection.php:93
+msgid "Myposeo Plugin settings"
+msgstr ""
+
+#: pages/admin/connection.php:96
+msgid "API key"
+msgstr ""
+
+#: pages/admin/connection.php:98
+msgid "Delete"
+msgstr ""
+
+#: pages/admin/connection.php:101
+msgid "The API key which is used to connect to your account"
+msgstr ""
+
+#: pages/admin/connection.php:101
+msgid "Recover your API key here"
+msgstr ""
+
+#: pages/admin/connection.php:107 pages/admin/connection.php:113
+msgid "Select a campaign"
+msgstr ""
+
+#: pages/admin/connection.php:123
+msgid "Validate"
+msgstr ""
+
+#. Author of the plugin
+msgid "Myposeo"
+msgstr ""
+
+#. Description of the plugin
+msgid "Myposeo.com dashboard integration into WordPress"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://developer.wordpress.org/plugins/myposeo/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.myposeo.com"
+msgstr ""

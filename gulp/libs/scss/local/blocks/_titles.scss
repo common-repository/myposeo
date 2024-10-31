@@ -1,0 +1,39 @@
+// ========================================= //
+// titles
+// ========================================= //
+
+
+h1 {
+    background-color: $white;
+    padding: 20px !important;
+    box-sizing: border-box;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myposeo_page_myposeo_settings h1 {
+    margin-bottom: 40px;
+    width: auto;
+}
+
+h1 img {
+    margin-right: 10px;
+}
+
+h2 {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+h2:first-of-type {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(35,97,200, 0.15);
+    background-color: rgba(35,97,200, 0.2);
+}

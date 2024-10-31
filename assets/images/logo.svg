@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="25" height="25"
+   viewBox="-300 600 1792 1792" 
+   xml:space="preserve"
+   id="svg2"
+   version="1.1">
+   <g transform="translate(0,1792)">
+    <g transform="scale(1,-1)">
+     <path fill="black" 
+         id="path14"
+         style="fill:#f1464a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m 899.02,669.633 c 5.554,-31.387 7.089,-64.008 3.886,-97.285 C 883.871,374.691 708.207,229.887 510.543,248.922 312.887,267.945 168.07,443.609 187.105,641.27 c 19.032,197.66 194.696,342.464 392.364,323.429 12.031,-1.16 23.847,-2.914 35.457,-5.203 l 88.633,163.574 c -34.161,10.45 -69.864,17.66 -106.797,21.22 C 299.918,1172.87 36.0977,955.406 7.52344,658.563 -21.0586,361.723 196.41,97.9102 493.246,69.3281 790.102,40.7617 1053.91,258.219 1082.5,555.055 c 6.67,69.304 -0.22,136.75 -18.26,199.883 L 899.02,669.633" />
+         <path fill="black" 
+         id="path16"
+         style="fill:none;stroke:#ffffff;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 899.02,669.633 c 5.554,-31.387 7.089,-64.008 3.886,-97.285 C 883.871,374.691 708.207,229.887 510.543,248.922 312.887,267.945 168.07,443.609 187.105,641.27 c 19.032,197.66 194.696,342.464 392.364,323.429 12.031,-1.16 23.847,-2.914 35.457,-5.203 l 88.633,163.574 c -34.161,10.45 -69.864,17.66 -106.797,21.22 C 299.918,1172.87 36.0977,955.406 7.52344,658.563 -21.0586,361.723 196.41,97.9102 493.246,69.3281 790.102,40.7617 1053.91,258.219 1082.5,555.055 c 6.67,69.304 -0.22,136.75 -18.26,199.883 z" />
+         <path fill="black" 
+         id="path18"
+         style="fill:#f1464a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m 834.73,1145.67 -289.726,-538.865 486.256,253.613 53.39,27.848 C 1029.14,996.66 942.191,1086.92 834.73,1145.67" />
+         <path fill="black" id="path20"
+         style="fill:none;stroke:#ffffff;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+         d="m 834.73,1145.67 -289.726,-538.865 486.256,253.613 53.39,27.848 C 1029.14,996.66 942.191,1086.92 834.73,1145.67 Z" />
+       </g>
+     </g>
+</svg>

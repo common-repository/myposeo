@@ -1,0 +1,25 @@
+// ========================================= //
+// styles
+// ========================================= //
+
+@import "vars/breakpoints";
+@import "vars/colors";
+
+@import "tools/breakpoints";
+
+// Include
+@import "modules/ui";
+
+.c-myposeo__holder {
+    // blocks
+    @import "blocks/titles";
+    @import "blocks/inputs";
+
+    @import "blocks/form";
+
+    // modules
+    @import "modules/tables";
+    @import "modules/dashboard";
+
+    @import "modules/content";
+}

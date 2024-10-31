@@ -1,0 +1,165 @@
+// ========================================= //
+// form
+// ========================================= //
+
+
+form {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+div form {
+    /*display: flex;*/
+    align-items: center;
+    justify-content: space-between;
+
+    @include bp-lt($small) {
+        flex-direction: column;
+    }
+}
+
+.c-form__dates {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+
+    @include bp-lt($small) {
+        flex-flow: row wrap;
+    }
+
+    .c-form__date {
+        padding-right: 10px;
+        display: flex;
+        align-items: center;
+
+        @include bp-lt($small) {
+            margin-bottom: 10px;
+        }
+
+        span {
+            width: 80px;
+            display: block;
+        }
+    }
+}
+
+.dataTables_info {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.dataTables_paginate {
+    padding-top: 0.755em;
+}
+
+#motscles_length,
+#motscles_filter {
+    margin-bottom: 10px;
+}
+
+#motscles_length {
+    padding-left: 20px;
+}
+
+#motscles_filter {
+    padding-right: 20px;
+}
+
+table {
+
+    &#motscles {
+        padding-top: 15px;
+
+        &, thead th {
+            border-bottom: 1px solid $light--grey--02;
+        }
+
+        thead {
+            background-color: $light--grey--01;
+
+            th {
+                font-size: 12px;
+                line-height: 14px;
+                white-space: nowrap;
+
+                &:first-of-type {
+                    min-width: 210px;
+                }
+            }
+        }
+
+        tbody {
+            td {
+                padding: 12px 10px;
+            }
+
+            tr {
+                td {
+                    &:nth-child(3),
+                    &:nth-child(4),
+                    &:nth-child(7),
+                    &:nth-child(6),
+                    &:nth-child(8),
+                    &:nth-child(9) {
+                        text-align: center;
+                    }
+
+                    &:nth-child(5) {
+                        text-align: left;
+                        padding-left: 40px;
+
+                    }
+                }
+            }
+        }
+
+        .yadcf-filter-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 8px;
+            margin-left: 0;
+
+            button {
+                display: flex;
+                justify-content: center;
+
+                width: 24px;
+                height: 24px;
+                margin-top: 2px;
+                margin-left: 2px;
+                background: $blue--01;
+                border: 0;
+                border-radius: 50%;
+                color: $white;
+                cursor: pointer;
+                transition: all .3s ease;
+
+                &:hover, &:active {
+                    color: $blue--01;
+                    background: $white;
+                }
+            }
+        }
+
+        .yadcf-filter-wrapper-inner {
+            border: 0;
+
+            input {
+                border: 0;
+                height: 20px;
+                border-radius: 5px;
+                padding-right: 5px !important;
+                padding-left: 5px !important;
+            }
+        }
+
+        .yadcf-filter-range-number-seperator {
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+}

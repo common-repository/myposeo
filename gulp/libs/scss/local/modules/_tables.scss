@@ -1,0 +1,16 @@
+// ========================================= //
+//  tables
+// ========================================= //
+
+.c-table__wrapper {
+    width: 100%;
+    overflow-y: auto;
+    margin: 0 0 .4375rem;
+
+    table {
+        width: 100%;
+        table-layout: auto;
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+}

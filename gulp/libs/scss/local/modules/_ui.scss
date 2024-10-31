@@ -1,0 +1,67 @@
+// ========================================= //
+// ui
+// ========================================= //
+
+#wpcontent {
+    padding-left: 0;
+}
+
+@include bp-lt($tabletM) {
+    .auto-fold #wpcontent {
+        padding-left: 0;
+    }
+}
+
+.wrap.c-myposeo__holder {
+    // box-sizing: border-box;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+
+    // *, *:before, *:after {
+    //     box-sizing: inherit;
+    // }
+
+    > form {
+        margin: 0;
+        background-color: $light--blue--01;
+    }
+
+    > form ul {
+       display: flex;
+       align-items: center;
+       width: 100%;
+
+       @include bp-lt($xmedium) {
+           flex-direction: column;
+       }
+
+       @include bp-lt($desktop) {
+           justify-content: space-around;
+       }
+
+       li {
+           display: block;
+           width: calc(100% / 3 - 5px);
+
+           @include bp-lt($desktop) {
+               width: auto;
+           }
+
+           &:nth-child(2) {
+               text-align: center;
+
+               @include bp-lt($desktop) {
+                   padding-left: 10px;
+                   padding-right: 10px;
+               }
+           }
+
+           &:last-child {
+               text-align: right;
+           }
+       }
+
+   }
+}

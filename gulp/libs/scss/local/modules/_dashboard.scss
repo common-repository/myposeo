@@ -1,0 +1,146 @@
+// ========================================= //
+// dashboards
+// ========================================= //
+
+ul.c-dashboard__thumbs {
+
+    li {
+        margin: 0;
+        padding: 10px 0;
+    }
+}
+
+.myposeo-intro {
+    display: flex;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    @include bp-lt($tabletS) {
+        display: block;
+    }
+
+    .bloc-left,
+    .bloc-right {
+        display: block;
+        width: 50%;
+
+        @include bp-lt($tabletS) {
+            width: 100%;
+        }
+    }
+
+    .bloc-left {
+        margin-right: 20px;
+
+        @include bp-lt($tabletS) {
+            margin-right: 0;
+        }
+    }
+
+    .bloc-right {
+        margin-left: 20px;
+
+        @include bp-lt($tabletS) {
+            margin-left: 0;
+        }
+    }
+}
+
+.card-config {
+    margin-top: 30px;
+    padding: 0;
+
+    ol {
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        padding-right: 20px;
+    }
+}
+
+.bloc-left .intro {
+    min-width: 255px;
+    max-width: 520px;
+}
+
+.card-config,
+.bloc-left .intro,
+.card-help {
+    @include bp-lt($tabletS) {
+        min-width: 0;
+        max-width: 100%;
+    }
+}
+
+form#your-profile {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    background-color: transparent;
+    box-sizing: border-box;
+
+    h2 {
+        display: block;
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba(35,97,200, 0.15);
+        background-color: rgba(35,97,200, 0.2);
+
+        &:last-of-type {
+            margin-top: 40px;
+        }
+    }
+}
+
+.hidden-inputs {
+    display: none;
+}
+
+table.form-table {
+    width: 100%;
+    margin: 0;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+
+    th,
+    td {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    th {
+        padding-left: 20px;
+        padding-right: 20px;
+        vertical-align: middle;
+    }
+
+    tbody tr > {
+        @include bp-lt($tabletM) {
+            th {
+                padding-bottom: 0;
+            }
+
+            td {
+                padding-left: 10px;
+            }
+        }
+    }
+}
+
+table.api-key,
+table.campaign {
+    background-color: $white;
+}
+
+table.api-key {
+    td a {
+       color: $orange--01;
+   }
+}
+
+input[name="apikey"] {
+   background-color: $white;
+   margin-right: 5px;
+}
